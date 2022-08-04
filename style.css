@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3f5f5;
+}
+header {   
+    max-width: 100%;
+    height: 64px;
+    background-color: white;    
+}
+.wrapper {   
+    max-width: 1320px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;    
+}
+.chessify {
+    display: flex;
+    justify-content: space-between;
+    width: 453px;
+    height: 32px;
+    margin-top: 16px;
+}
+.logo {
+    width: 109px;
+    display: flex;
+    justify-content: space-between;
+}
+.vector {
+    margin-top: 2px;
+}
+.title {
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.info-today {
+    width: 200px;
+    height: 32px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #f3f5f5;
+}
+.today {
+    margin-left: 20px;
+}
+.arrow-down {
+    margin-top: 5px;
+}
+.today-number {
+    color: #358C65;
+}
+.statistics {
+    margin-top: 8px;
+    font-size: 14px;
+}
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 472px;
+    height: 32px;
+    margin-top: 16px;
+    /* margin-left: 20px; */
+    /* background-color:  #a5eb80; */
+}
+.title-dashboard {
+    font-size: 14px;
+    color: #358C65;
+}
+.info-coins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #f3f5f5;
+}
+.coins {
+    margin-left: 10px;
+}
+.briefcase {
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.buy {
+    margin-right: 10px;
+    color: #358C65;
+}
+.timur-ivanov {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.icon-user {
+    margin-top: 5px;
+}
+.ivanov {
+    margin-left: 15px;
+}
+.chevron-down {
+    margin-left: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 24px;
+}
+.container-left {
+   max-width: 632px;
+   padding-left: 20px;
+}
+.left-block {
+    width: 632px;
+    height: 706px;
+    margin-top: 24px;
+    background-color: white;
+}
+.gameboard {
+    width: 632px;
+    height: 641px;    
+}
+.chess-image {
+    width: 600px;
+    height: 600px;
+    padding: 16px 16px 25px 16px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 632px;
+    height: 65px;
+}
+.firouzja {
+    width: 150px;
+    height: 20px;
+    margin-left: 16px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+.number {
+    color: #959d99;
+}
+.game-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+.circle-left {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    border: 1px solid #959d99;
+}
+.circle-right {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    border: 1px solid #959d99;
+    background-color: black;
+}
+.nakamura {
+    width: 162px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+.footerboard {
+    display: flex;
+    justify-content: space-between;
+    width: 632px;
+    height: 32px;
+    margin-top: 20px;
+    margin-bottom: 58px;
+    /* background-color: #fdedd2; */
+}
+.input-left input{
+    width: 108px;
+    height: 32px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 1px solid #dddddc;
+    color: #358C65;
+}
+.pencil {
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+.input-right input {
+    width: 83px;
+    height: 32px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #dddddc;
+    color: #358C65;
+}
+.chek-mark {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container-right {
+    max-width: 632px;
+    margin-left: 16px;
+    padding-right: 20px;
+    /* height: 758px; */
+}
+.notation {
+    width: 632px;
+    height: 192px;
+    margin-top: 24px;
+    margin-left: 16px;
+    background-color: white;
+}
+.notation-header {
+    display: flex;
+    justify-content: space-between;
+    width: 632px;
+    height: 48px;
+    font-size: 16px;
+    border-bottom: 2px solid #d1d1d0;
+    /* background-color: #fdf0c5; */
+}
+.block-notation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.icon-notation {
+    margin-top: 17px;
+}
+.title-notation {
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #959D99;
+}
+.icon-search {
+    margin-left: 20px;
+    margin-top: 17px;
+}
+.reference {
+    margin-left: 5px;
+    margin-top: 15px;
+    color: #358C65;
+}
+.block-redo-undo {
+    display: flex;
+    justify-content: space-between;
+}
+.undo {
+    width: 32px;
+    height: 23px;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding-left: 7px;
+    padding-top: 2px;
+    border-radius: 8px;
+    border: 2px solid  #d3d3d0;
+    cursor: pointer;
+}
+.tooltip-undo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-undo .tooltiptext-undo {
+    visibility: hidden;
+    width: 55px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip-undo:hover .tooltiptext-undo {
+    visibility: visible;
+  }
+.undo:hover {
+    background-color: #e5e5e4;
+}
+.redo {
+    width: 32px;
+    height: 23px;
+    margin-right: 15px;
+    margin-top: 12px;
+    padding-left: 7px;
+    padding-top: 2px;
+    border-radius: 8px;
+    border: 2px solid  #d3d3d0;
+    cursor: pointer;
+}
+.tooltip-redo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-redo .tooltiptext-redo {
+    visibility: hidden;
+    width: 55px;
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip-redo:hover .tooltiptext-redo {
+    visibility: visible;
+  }
+.redo:hover {
+    background-color: #e5e5e4;
+}
+.notation-table {
+    width: 632px;
+    height: 134px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    overflow: scroll;
+}
+th, td {
+    text-align: left;
+    padding: 4px;
+    border-bottom: 1px solid #d1d1d0;
+  }
+.van {
+    width: 632px;
+    height: 184px;
+    margin-top: 4px;
+    margin-left: 16px;
+    background-color: white;
+}
+.van-header {
+    width: 632px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-van {
+    width: 45px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.title-van {
+    margin-left: 10px;
+}
+.board-position {
+    width: 140px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-van-right {
+    width: 30px;
+    height: 24px;
+    margin-right: 10px;
+    padding-top: 2px;
+    border: 1px solid #d3d3d0;
+    border-radius: 5px;
+}
+.input-van input{
+    width: 100px;
+    height: 24px;
+    margin-right: 16px;
+    padding-left: 8px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d0;
+    color: #358C65;
+}
+.van-table {
+    width: 632px;
+    height: 128px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.stockfish {
+    width: 632px;
+    height: 243px;
+    margin-top: 16px;
+    margin-left: 16px;
+    background-color: white;
+}
+.stockfish-header {
+    width: 632px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f3f5f5;
+}
+.stockfish-block {
+    width: 140px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.stockfish-title {
+    font-size: 16px;
+}
+.chevron-up {
+    margin-left: 8px;
+}
+.server-block {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-right: 16px;
+}
+.server {
+    margin-right: 5px;
+}
+.coins {
+    margin-right: 19px;
+}
+.btn-stop button{
+    width: 80px;
+    height: 24px;
+    border-radius: 8px;
+    color: white;
+    background-color: #358C65;
+    border: none;
+}
+.depth {
+    display: flex;
+    justify-content: space-between;
+}
+.depth-block {
+    width: 226px;
+    height: 32px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #6c6c69;
+}
+.depth-circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #636361;
+    background-color: #636361;
+}
+.depth-icon-block {
+    width: 90px;
+    height: 32px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.depth-icon-minus {
+    width: 25px;
+    height: 21px;
+    padding-left: 3px;
+    padding-top: 1px;
+    border: 2px solid #e5e5e4;
+    border-radius: 8px;
+}
+.depth-icon-plus {
+    width: 25px;
+    height: 21px;
+    padding-left: 3px;
+    padding-top: 1px;
+    border: 2px solid #e5e5e4;
+    border-radius: 8px;
+}
+.depth-icon-lock {
+    width: 25px;
+    height: 21px;
+    padding-left: 4px;
+    padding-top: 2px;
+    border: 2px solid #e5e5e4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.depth-icon-lock:hover {
+    background-color: #e5e5e4;
+}
+.tooltip-lock {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-lock .tooltiptext-lock {
+    visibility: hidden;
+    width: 40px;
+    font-size: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip-lock:hover .tooltiptext-lock {
+    visibility: visible;
+  }
+.stockfish-table {
+    height: 160px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.stockfish-scroll {
+    /* width: 632px; */
+    /* height: 40px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    border-collapse: collapse;
+    font-size: 14px;
+    overflow: scroll;
+}
+.stockfish-table-block {
+    /* width: 632px;
+    height: 40px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #6c6c69;    
+}
+.stockfish-button {
+    width: 64px;
+    height: 32px;
+    margin-left: 20px;
+    padding-top: 4px;
+    border: 2px solid #e5e5e4;
+    border-radius: 8px;
+    box-shadow: 0 3px 7px rgba(0,0,0,.25);
+}
+.stockfish-text {
+    margin-left: 20px;
+}
+.lc-zero {    
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.zero-block {
+    width: 632px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.zero {
+    margin-left: 20px;
+    font-size: 16px;
+}
+.network-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.network-chevron-down {
+    margin-left: 5px;
+}
+.cpuct-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.cpuct-chevron-left {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    background-color: #f3f5f5;
+}
+.cpuct-chevron-right {
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    background-color: #f3f5f5;
+}
+.zero-coins {
+    font-size: 12px;
+}
+.btn-analyze button {
+    width: 65px;
+    height: 20px;
+    margin-right: 16px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: #358C65;
+    border: none;
+}
+.show-more {
+    margin-top: 8px;
+    margin-left: 16px;   
+}
+.show-more-block {
+    width: 632px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-size: 14px;
+}
+.show-block-left {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.show-text {
+    margin-left: 10px;
+}
+.show-block-right {
+    margin-right: 15px;
+}
